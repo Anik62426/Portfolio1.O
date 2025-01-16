@@ -10,20 +10,22 @@ export const DATA = {
   description:
     "Software Engineer. I love building Web Apps. .",
   summary:
-    "I'm a software engineer with a passion for building web applications.  [I have experience working with React, Next.js, Typescript, Node.js, Postgres, Docker, Java, and C++. [I have a Bachelor's Degree of Science (BSC) In Information Technology](/#education)",
+    "I'm a software engineer with a passion for building full-stack web applications.  [I have experience working with React, Next.js, Typescript, Node.js, Postgres, Docker, Java, and C++. [I have a Bachelor's Degree of Science In Information Technology](/#education)",
   avatarUrl: "/me.png",
   skills: [
-    "React",
-    "Next.js",
+    "C++",
+    "Java",
     "JavaScript",
     "TypeScript",
+    "React",
+    "Next.js",
     "Tailwind-CSS",
+    "Express.js",
     "Node.js",
-    "Postgres",
+    "Prisma",
+    "PostgreSQL",
     "MongoDB",
     "Docker",
-    "Java",
-    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -185,6 +187,68 @@ export const DATA = {
       image: "",
       video:
         "https://res.cloudinary.com/dpvt2kpli/video/upload/v1734941832/ujs5xghhiekgd9mawydc.mp4",
+    },
+    {
+      title: "Youtube To Blogs",
+      href: "https://res.cloudinary.com/dpvt2kpli/video/upload/v1735196711/lovwhj4tuzbwhmhf8zbz.mp4",
+      dates: "",
+      active: true,
+      description:
+        "Turn YouTube videos into captivating vlogs effortlessly with the power of Gemini AI.",
+      technologies: [
+        "TypeScript",
+        "React.js",
+        "TailwindCSS",
+        "Express.js",
+        "Gemini AI"
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Anik62426/YoutubeToBlogs",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Anik62426/YoutubeToBlogs",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dpvt2kpli/video/upload/v1735196711/lovwhj4tuzbwhmhf8zbz.mp4",
+    },
+    {
+      title: "Streamline campaign approvals and invoice generation from CSV uploads with ease for admins.",
+      href: "https://res.cloudinary.com/dpvt2kpli/video/upload/v1737021792/jviolguenbgvhlzmod6o.mp4",
+      dates: "",
+      active: true,
+      description:
+        "Let users to generate Campaigns directly from CSV files and lets admins to approve Campaign and generate Invoice for it",
+      technologies: [
+        "TypeScript",
+        "React.js",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Prisma ORM",
+        "Express.js",
+        "Node.js"
+
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://github.com/Anik62426/board-backend",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Anik62426/board-frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://res.cloudinary.com/dpvt2kpli/video/upload/v1737021792/jviolguenbgvhlzmod6o.mp4",
     },
     {
       title: "Ecommerce- WebApp",
